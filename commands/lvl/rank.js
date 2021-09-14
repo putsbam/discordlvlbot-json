@@ -26,7 +26,7 @@ module.exports = {
         .addField(`**XP:**`, `✨ \`${userData.xp}\``, true)
         .addField(`**Current Level:**`, `🏆 \`${userData.lvl}\``, true)
       
-     message.reply({ embeds: [lvlEmbed] })
+     message.reply({ embed: lvlEmbed })
       
   }
 }
