@@ -12,11 +12,11 @@ module.exports = {
       
     let member = message.guild.member(message.mentions.members.first() || message.guild.members.cache.get(args[0] || message.member.id)) 
 
-    if(!member) return message.channel.send("Invalid Member!").then(() => message.delete({timeout: 15000}))
+    if(!member) return message.channel.send("Invalid Member!")
       
     let userData = database.users.find(u => u.id == member.id)
       
-    if(!userData) return message.channel.send("No Results Found!").then(() => message.delete({timeout: 15000}))
+    if(!userData) return message.channel.send("No Results Found!")
       
       const lvlEmbed = new Discord.MessageEmbed()
       
