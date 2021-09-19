@@ -3,6 +3,7 @@
 # A simple Discord Leveling Bot using JSON as Database!
 
 _"This is not the best option to servers with a huge amount of people, but still works!"_
+_Uses v15 of discord.js_
 
 ## Setting Up:
 
@@ -12,7 +13,7 @@ _"This is not the best option to servers with a huge amount of people, but still
 
 - Or clone the repo using Git:
 
-  `git clone https://github.com/putsbam/json-lvlbot.git`
+  `git clone https://github.com/putsbam/discordlvlbot-json.git`
 
 ## Change Enviroment Variables (.env file):
 
